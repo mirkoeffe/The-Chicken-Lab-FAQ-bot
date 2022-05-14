@@ -1,0 +1,41 @@
+{
+	"intro": {
+		"title": "Welcome to The Lab!",
+		"description": "This bot was created to interact with the people of the LAB, follow the FAQ to clear your doubts",
+		"titleImageUrl": "https://cdn.substack.com/image/fetch/w_96,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fccc4f8ab-1a57-478f-91d9-0ebb0975324f_734x734.png",
+		"titleButtons": "The Chicken Lab Help Desk",
+		"messageButtonImage": "https://cdn.discordapp.com/attachments/884152574742237275/886325496642695268/Q_M.png"
+	},
+	"questions": [
+		{
+			"question": "What is this server for?",
+			"answer": "This a community of Chickens"
+		},
+		{
+			"question": "O que é BanklessBR?",
+			"answer": "BanklessBR é uma DAO"
+		},
+		{
+			"question": "What is this server for?",
+			"answer": "This a community of Chickens"
+		},
+		{
+			"question": "O que é BanklessBR?",
+			"answer": "BanklessBR é uma DAO"
+		},
+		{
+			"question": "What is this server for?",
+			"answer": "This a community of Chickens"
+		},
+		{
+			"question": "O que é BanklessBR?",
+			"answer": "BanklessBR é uma DAO"
+		}
+	],
+	"otherOption": {
+		"question": "Nenhum das opções acima",
+		"answer": "Abra um ticket para outras dúvidas!"
+	},
+	"numberEmojis": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "965371355413483640", "965371355736453150", "965371355275100261", "965371355774193744"],
+	"numberEmojis2": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "❔"]
+}

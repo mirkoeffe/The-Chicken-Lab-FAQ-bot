@@ -2,7 +2,7 @@
 My edited version of https://github.com/FernandoTBarros/discord-faq-bot
 
 # Install
-1. Create a * *.env* file copying from *env.template* and put your Bot Token and Discord ID.
+1. Put your Bot Token and Discord ID inside the ```.env```
 
 ```.env
 # Token of Discord Bot:

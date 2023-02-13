@@ -1,5 +1,5 @@
 # Discord FAQ Bot
-My edited version of https://github.com/FernandoTBarros/discord-faq-bot
+My WIP version of https://github.com/FernandoTBarros/discord-faq-bot
 
 I'm trying to implement some new functions to make the bot interactive with the users
 

@@ -31,7 +31,7 @@ bot.once("ready", () => __awaiter(void 0, void 0, void 0, function* () {
     bot.on('messageCreate', (message) => __awaiter(void 0, void 0, void 0, function* () {
         if (!message.author.bot && message.author.id) {
             let args = message.content.split(' ');
-            if (args[0] === ('FAQ')) {
+            if (args[0].toUpperCase() === ('FAQ')) {
                 message.channel.send('Assembling FAQ, wait...')
                     .then((message) => __awaiter(void 0, void 0, void 0, function* () {
                     message.edit(createFaqMenu());
@@ -59,14 +59,24 @@ let answer = 'Hello, if you want to know something about this place write FAQ'
 
 bot.on('messageCreate', (message) => {
     if (message.content != answer) {
-        if (message.content === 'Hi') {
+        if (message.content.toLowerCase() === 'hi') {
             message.reply({
                 content: 'Hello, if you want to know something about this place write FAQ',
             });
         }
     }
-    
 });
+
+bot.on('messageCreate', (message) => {
+    if (message.content != answer) {
+        if (message.content.toLowerCase() === 'fuck') {
+            message.reply({
+                content: "You'll be banned in T-minus ..... !",
+            });
+        }
+    }
+});
+
 
 if (!BOT_TOKEN) {
     console.error("No tokens to launch the bot");
